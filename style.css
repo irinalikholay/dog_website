@@ -239,6 +239,11 @@
   text-decoration: none;
 }
 
+.card a:hover {
+    border-bottom: 1px solid #E27B3A;
+
+}
+
 .popular {
     padding-top: 115px;
 }
@@ -332,6 +337,12 @@
     font-size: 16px;
     color: #E27B3A;
     text-decoration: none;
+
+}
+
+.product-info a:hover {
+    border-bottom: 1px solid #E27B3A;
+
 }
 
 .popular-products-button {
@@ -344,8 +355,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #E27B3A;
+
+    color: white;
+    background: #E27B3A;
     text-decoration: none;
+    
     border: 1px solid #E27B3A;
     padding: 12px 28px;
     border-radius: 30px;
@@ -353,8 +367,8 @@
 }
 
 .popular-button:hover {
-    background: #E27B3A;
-    color: white;
+    background: white;
+    color: #E27B3A;
 }
 
 .adoption {
@@ -438,4 +452,89 @@
     background: white;
     color: #E27B3A;
     border: 1px solid #E27B3A;
+}
+
+.subscription {
+    margin-top: 86px;
+}
+
+.subscription-container {
+    max-width: 1140px;
+    margin: 86px auto 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.subscription-title{
+    margin-bottom: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.subscription-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 83px;
+
+}
+
+.subscription-card{
+    flex: 1;
+    text-align: center;
+}
+
+.card_image{
+    width: 100%;
+    display: block;
+}
+
+.subscription-card h3 {
+    margin-top: 51px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.subscription-card p {
+    margin-top: 22px;
+    margin-bottom: 15px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.view-details {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #E27B3A;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+
+}
+
+.view-details:hover {
+    border-bottom: 1px solid #E27B3A;
+}
+
+.subscription-button {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #E27B3A;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
